@@ -25,8 +25,8 @@ function Navbar() {
   return (
     <>
       <nav className="navbar">
-        <div className="navbar-container">
-          <Link to="/" className="navbar-logo">
+        <div className="navbar__container">
+          <Link to="/" className="navbar__logo">
             FOGGG{" "}
             <i
               style={{ marginLeft: "6px" }}
@@ -34,37 +34,37 @@ function Navbar() {
             ></i>
             {/* <i class="fab fa-affiliatetheme"></i> */}
           </Link>
-          <div className="menu-icon" onClick={() => setClick(!click)}>
+          <div className="nav__icon" onClick={() => setClick(!click)}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
-          <ul className={click ? "nav-menu active" : "nav-menu"}>
-            <li className="nav-item">
-              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+          <ul className={click ? "nav__menu active" : "nav__menu"}>
+            <li className="nav__item">
+              <Link to="/" className="nav__links" onClick={closeMobileMenu}>
                 Home
               </Link>
             </li>
-            <li className="nav-item">
+            <li className="nav__item">
               <Link
                 to="/services"
-                className="nav-links"
+                className="nav__links"
                 onClick={closeMobileMenu}
               >
                 Services
               </Link>
             </li>
-            <li className="nav-item">
+            <li className="nav__item">
               <Link
                 to="/products"
-                className="nav-links"
+                className="nav__links"
                 onClick={closeMobileMenu}
               >
                 Products
               </Link>
             </li>
-            <li className="nav-item">
+            <li className="nav__item">
               <Link
                 to="/sign-up"
-                className="nav-links-mobile"
+                className="nav__links--mobile"
                 onClick={closeMobileMenu}
               >
                 Sign Up
