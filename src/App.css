@@ -1,10 +1,11 @@
 * {
+    /* font-size: 62.5%; */
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: "PT Sans", sans-serif;
 }
-
+@import "~antd/dist/antd.css";
 .home,
 .services,
 .products,

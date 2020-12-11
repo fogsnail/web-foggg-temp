@@ -1,5 +1,6 @@
 import "../../App.css";
 import Cards from "../Cards";
+import FlipCard from "../FlipCard";
 import HeroSection from "../HeroSection";
 
 function Home() {
@@ -7,6 +8,7 @@ function Home() {
     <>
       <HeroSection />
       <Cards />
+      <FlipCard />
     </>
   );
 }

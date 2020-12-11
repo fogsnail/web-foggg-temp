@@ -65,6 +65,7 @@
 
 .footer__link-items h2 {
     margin-bottom: 6px;
+    color: #fff;
 }
 
 /* .footer__link-items > h2 {
@@ -73,7 +74,7 @@
 
 .footer__link-items a {
     color: #fff;
-    text-decoration: none;
+    /* text-decoration: none; */
     margin-bottom: 8px;
 }
 
