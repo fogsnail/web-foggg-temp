@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Button } from "../Button";
+import { Button } from "./Button";
 import "./Footer.css";
 
 function Footer() {
@@ -10,9 +10,7 @@ function Footer() {
         <p className="subscription__heading">
           Join the Adventure newsletter to receive our best vacation deals
         </p>
-        <p className="subscription__text">
-          You can unsubscribe at any time.
-        </p>
+        <p className="subscription__text">You can unsubscribe at any time.</p>
         <div className="input-areas">
           <form>
             <input
@@ -64,7 +62,10 @@ function Footer() {
             <div class="footer__logo">
               <Link to="/" className="social__logo">
                 FOGGG
-                <i style={{marginLeft:"8px"}} className="fab fa-affiliatetheme"></i>
+                <i
+                  style={{ marginLeft: "8px" }}
+                  className="fab fa-affiliatetheme"
+                ></i>
               </Link>
             </div>
             <small class="website-rights">hoangtph © 2020</small>
