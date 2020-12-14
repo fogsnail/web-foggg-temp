@@ -11,19 +11,19 @@ function FlipCard() {
         </div>
         <Row className="flip-card-container" justify="center">
           <Col xl={8} sm={24} md={12}>
-            <div className="card">
-              <div className="card__side card__side--front">
-                <div className="card__picture card__picture--1">
+            <div className="flip-card">
+              <div className="flip-card__side flip-card__side--front">
+                <div className="flip-card__picture flip-card__picture--1">
                   &nbsp;
                   {/*- KÍ TỰ RỖNG TRONG HTML */}
                 </div>
-                <h4 className="card__heading">
-                  <span className="card__heading-span card__heading-span--1">
+                <h4 className="flip-card__heading">
+                  <span className="flip-card__heading-span flip-card__heading-span--1">
                     Control <br />
                     your time
                   </span>
                 </h4>
-                <div className="card__details">
+                <div className="flip-card__details">
                   <ul>
                     <li>3 hours</li>
                     <li>1000 students</li>
@@ -31,11 +31,11 @@ function FlipCard() {
                   </ul>
                 </div>
               </div>
-              <div className="card__side card__side--back card__side--back-1">
-                <div className="card__cta">
-                  <div className="card__price-box">
-                    <p className="card__price-only">Only</p>
-                    <p className="card__price-value">$16</p>
+              <div className="flip-card__side flip-card__side--back flip-card__side--back-1">
+                <div className="flip-card__cta">
+                  <div className="flip-card__price-box">
+                    <p className="flip-card__price-only">Only</p>
+                    <p className="flip-card__price-value">$16</p>
                     <a
                       href="/redirect?Id=t4QpedsZQSbEiPHWVWFQSQ%3d%3d"
                       className="btn btn--white"
@@ -48,16 +48,18 @@ function FlipCard() {
             </div>
           </Col>
           <Col xl={8} sm={24} md={12}>
-            <div className="card">
-              <div className="card__side card__side--front">
-                <div className="card__picture card__picture--2">&nbsp;</div>
-                <h4 className="card__heading">
-                  <span className="card__heading-span card__heading-span--2">
+            <div className="flip-card">
+              <div className="flip-card__side flip-card__side--front">
+                <div className="flip-card__picture flip-card__picture--2">
+                  &nbsp;
+                </div>
+                <h4 className="flip-card__heading">
+                  <span className="flip-card__heading-span flip-card__heading-span--2">
                     make <br />
                     mindmap
                   </span>
                 </h4>
-                <div className="card__details">
+                <div className="flip-card__details">
                   <ul>
                     <li>10 hours</li>
                     <li>5000 students</li>
@@ -65,11 +67,11 @@ function FlipCard() {
                   </ul>
                 </div>
               </div>
-              <div className="card__side card__side--back card__side--back-2">
-                <div className="card__cta">
-                  <div className="card__price-box">
-                    <p className="card__price-only">Only</p>
-                    <p className="card__price-value">$20</p>
+              <div className="flip-card__side flip-card__side--back flip-card__side--back-2">
+                <div className="flip-card__cta">
+                  <div className="flip-card__price-box">
+                    <p className="flip-card__price-only">Only</p>
+                    <p className="flip-card__price-value">$20</p>
                     <a
                       href="/redirect?Id=t4QpedsZQSbEiPHWVWFQSQ%3d%3d"
                       className="btn btn--white"
@@ -82,17 +84,19 @@ function FlipCard() {
             </div>
           </Col>
           <Col xl={8} sm={24} md={12}>
-            <div className="card">
-              <div className="card__side card__side--front">
-                <div className="card__picture card__picture--3">&nbsp;</div>
-                <h4 className="card__heading">
-                  <span className="card__heading-span card__heading-span--2">
+            <div className="flip-card">
+              <div className="flip-card__side flip-card__side--front">
+                <div className="flip-card__picture flip-card__picture--3">
+                  &nbsp;
+                </div>
+                <h4 className="flip-card__heading">
+                  <span className="flip-card__heading-span flip-card__heading-span--2">
                     make
                     <br />
                     your target
                   </span>
                 </h4>
-                <div className="card__details">
+                <div className="flip-card__details">
                   <ul>
                     <li>15 hours</li>
                     <li>5000 students</li>
@@ -100,11 +104,11 @@ function FlipCard() {
                   </ul>
                 </div>
               </div>
-              <div className="card__side card__side--back card__side--back-3">
-                <div className="card__cta">
-                  <div className="card__price-box">
-                    <p className="card__price-only">Only</p>
-                    <p className="card__price-value">$25</p>
+              <div className="flip-card__side flip-card__side--back flip-card__side--back-3">
+                <div className="flip-card__cta">
+                  <div className="flip-card__price-box">
+                    <p className="flip-card__price-only">Only</p>
+                    <p className="flip-card__price-value">$25</p>
                     <a
                       href="/redirect?Id=t4QpedsZQSbEiPHWVWFQSQ%3d%3d"
                       className="btn btn--white"

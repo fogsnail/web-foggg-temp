@@ -13,7 +13,7 @@ html {
 @import "~antd/dist/antd.css";
 .home,
 .services,
-.products,
+/* .products, */
 .sign-up {
     display: flex;
     height: 100vh;
@@ -32,14 +32,7 @@ html {
     font-size: 10rem;
 }
 
-.products {
-    background-image: url("/src/images/img-1.jpg");
-    background-position: center;
-    background-size: fill;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 10rem;
-}
+/*       */
 
 .sign-up {
     background-image: url("/src/images/img-8.jpg");
